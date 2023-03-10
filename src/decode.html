@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <!--The preconnect keyword for the rel attribute of the <link> element is a hint to browsers that the user is likely to need resources from the target resource's origin, and therefore the browser can likely improve the user experience by preemptively initiating a connection to that origin.-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="secondView">
+    <h2 class="secondTitle">Caesar Cipher</h2>
+    <main class="codeMain">
+        <label for="textToCode" class="displayBlock">Type your message:</label>
+        <textarea name="textToCode" id="textToCode" class="textToCode displayBlock"cols="30" rows="10" placeholder="Type..."></textarea>
+        <label for="offset" class="displayBlock">Choose your offset:</label>
+        <input type="number" name="offset" id="offset" class="displayBlock">
+        <button class="codeBtn displayBlock" id="codeBtn">Decode</button>
+    </main>
+  </body>
+</html>
