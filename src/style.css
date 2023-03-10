@@ -85,8 +85,11 @@ input, textarea {
     background-color: #6B728E;
     color: #eaecff;
     border: none;
-    min-height: 1.5rem;
     border-radius: 15px;
+    border-radius: 15px;
+    padding: 2%;
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 .codeBtn {
