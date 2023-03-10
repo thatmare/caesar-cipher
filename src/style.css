@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    color: #404258;
+    background-color: #eaecff;
+    text-align: center;
+    padding: 10%;
+}
+
+.title {
+    font-size: 6rem;
+}
+
+.slogan {
+    font-size: 2rem;
+}
+
+.top {
+    margin: 5vh 0 10vh;
+}
+
+.instructions {
+    font-size: 1.3rem;
+    margin: 0 0 3vh;
+}
+
+.choice {
+    font-size: 1.5rem;
+    margin: 0 0 3vh;
+}
+
+.btnContainer {
+    margin: 5vh 0 0;
+}
+
+.btnContainer > a {
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #474E68;
+    color: #eaecff;
+    padding: 2%;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.btn:hover {
+    background-color: #6B728E;
+    color: #404258;
+    box-shadow: 1px 1px 5px 2px #1f202c
+}
+
+.secondView {
+    background-color: #404258;
+    color: #eaecff;
+    padding: unset;
+}
+
+.secondTitle {
+    text-align: left;
+    padding: 4%;
+    font-size: 3rem;
+}
+
+.codeMain {
+    padding: 0 10%;
+}
+
+.displayBlock {
+    display: block;
+    margin: 0 auto 3vh;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+input, textarea {
+    background-color: #6B728E;
+    color: #eaecff;
+    border: none;
+    min-height: 1.5rem;
+    border-radius: 15px;
+}
+
+.codeBtn {
+    background-color: #eaecff;
+    color: #404258;
+    border-radius: 15px;
+    border: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Source Code Pro', monospace;  
+    padding: 2%;
+}
+
+.codeBtn:hover {
+    background-color: #474E68;
+    color: #eaecff;
+    box-shadow: 1px 1px 5px 2px #1f202c;
+}
