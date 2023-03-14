@@ -6,6 +6,7 @@ const inputMessage = document.getElementById('inputMessage');
 const offset = document.getElementById('offset');
 const codeBtn = document.getElementById('codeBtn');
 const decodeBtn = document.getElementById('decodeBtn');
+const resultSpan = document.getElementById('resultSpan');
 
 function caesarCipher() {
   let inputValue = inputMessage.value; //recuperamos el valor ingresada por la usuaria en el área de texto
@@ -20,7 +21,7 @@ function caesarCipher() {
         }
     }
 
-    window.alert(result);
+    resultSpan.textContent = result;
 }
 
 codeBtn.addEventListener('click', caesarCipher) //Aquí se ejecuta la función, al hacer clic en el botón.

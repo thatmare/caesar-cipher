@@ -109,6 +109,16 @@ input, textarea {
     box-shadow: 1px 1px 5px 2px #1f202c;
 }
 
+.spanContainer {
+    margin: 50px 0;
+}
+
+.resultSpan {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: mediumseagreen;
+}
+
 footer {
     margin-top: 100px;
     font-size: 0.8rem;
