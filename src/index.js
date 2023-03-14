@@ -3,28 +3,47 @@ import cipher from './cipher.js';
 console.log(cipher);
 
 const inputMessage = document.getElementById('inputMessage');
-let inputValue = inputMessage.value;
 const offset = document.getElementById('offset');
-let offsetValue = offset.value; 
 const codeBtn = document.getElementById('codeBtn');
+const decodeBtn = document.getElementById('decodeBtn');
 
-function toNumber(param) {
-    const offsetParam = Number(param);
-    
-    caesarCiphher();
-}
-
-function caesarCiphher(inputValue, ) {
-    let result = "";
-    for (let i=0; i<string.length; i++) {
-        let letterASCII = string[i].charCodeAt();
+function caesarCipher() {
+  let inputValue = inputMessage.value;
+  let offsetValue = Number(offset.value); 
+  let result = "";
+    for (let i=0; i<inputValue.length; i++) {
+        let letterASCII = inputValue[i].charCodeAt();
         if (letterASCII >= 65 && letterASCII <= 90){
-            result += String.fromCharCode(((letterASCII - 65 + offset)%26)+65);
+            result += String.fromCharCode(((letterASCII - 65 + offsetValue)%26)+65);
+        } else if (letterASCII >= 97 && letterASCII <= 122) {
+            result += String.fromCharCode(((letterASCII - 97 + offsetValue)%26)+97);
         }
     }
 
-    return result;
+    window.alert(result);
 }
+
+codeBtn.addEventListener('click', caesarCipher)
+
+//function caesarDecipher() {
+//  let inputValue = inputMessage.value;
+//  let offsetValue = Number(offset.value);
+//  let result = "";
+    //for (let i=0; i<inputValue.length; i++) {
+      //let letterASCII = inputValue[i].charCodeAt();
+      //if (letterASCII >= 65 && letterASCII <= 90) {
+        //result += String.fromCharCode(((letterASCII - 65 - offsetValue + 26)%26)+65);
+      //} else if (letterASCII >= 97 && letterASCII <= 122) {
+        //result += String.fromCharCode(((letterASCII - 97 - offsetValue)%26)+97);
+      //}
+    //}
+
+    //window.alert(result);
+//}
+
+decodeBtn.addEventListener('click', function(){
+  alert("hola");
+});
 
 //OFFICE HOUR LUNES 13
 //codeBtn.addEventListener('click', function (){
@@ -48,7 +67,3 @@ function caesarCiphher(inputValue, ) {
     //como usaremos ASCII para hacer el cifrado, creamos una variable que almacene el valor ASCII de cada letra, que se va a recuperar con el método charCodeAt
     //let letterASCII = letter.charCodeAt();
 //}
-
-//{letter = String.fromCharCode(((letterASCII - 65 + offsetValue)%26)+65)}
-
-//{letter = String.fromCharCode(((letterASCII - 97 + offsetValue)%26)+97)}
