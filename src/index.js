@@ -39,7 +39,7 @@ function caesarDecipher() {
       }
     }
 
-    window.alert(result);
+    resultSpan.textContent = result;
 }
 
 decodeBtn.addEventListener('click', caesarDecipher)

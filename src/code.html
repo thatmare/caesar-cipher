@@ -16,7 +16,10 @@
         <textarea name="inputMessage" id="inputMessage" class="inputMessage displayBlock"cols="30" rows="10" placeholder="Type..."></textarea>
         <label for="offset" class="displayBlock">Choose your offset:</label>
         <input type="number" name="offset" id="offset" class="displayBlock" min="1" max="10">
-        <button class="codeBtn displayBlock" id="codeBtn">Code</button>
+        <div class="btnContainer">
+          <button class="codeBtn" id="codeBtn">Code</button> 
+          <button class="codeBtn" id="decodeBtn">Decode</button>
+        </div>
         <div class="spanContainer">
           <span id="resultSpan" class="resultSpan"></span>
         </div>
