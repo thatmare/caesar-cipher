@@ -12,14 +12,18 @@
   <body class="secondView">
     <h2 class="secondTitle">Caesar Cipher</h2>
     <main class="codeMain">
+        
         <label for="inputMessage" class="displayBlock">Type your message:</label>
-        <textarea name="inputMessage" id="inputMessage" class="inputMessage displayBlock"cols="30" rows="10" placeholder="Type..."></textarea>
+        <textarea name="inputMessage" id="inputMessage" class="inputMessage displayBlock" cols="30" rows="10" placeholder="Type..." pattern="[A-Za-z]"></textarea>
+        
         <label for="offset" class="displayBlock">Choose your offset:</label>
-        <input type="number" name="offset" id="offset" class="displayBlock" min="1" max="10">
+        <input type="number" name="offset" id="offset" class="displayBlock" min="1" max="33">
+        
         <div class="btnContainer">
           <button class="codeBtn" id="codeBtn">Code</button> 
           <button class="codeBtn" id="decodeBtn">Decode</button>
         </div>
+        
         <div class="spanContainer">
           <span id="resultSpan" class="resultSpan"></span>
         </div>
