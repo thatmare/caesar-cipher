@@ -1,13 +1,13 @@
 # Caesar Cipher App
 
 ## Sobre Caesar Cipher
-Esta Caesar Cipher app es una herramienta de mensajería para cifrar y descifrar mensajes pensada para trabajadoras de cualquier organización de derechos humanos y/o activistas, específicamente aquellas que se encuentran en áreas de conflicto.
+La Caesar Cipher app es una herramienta de mensajería para cifrar y descifrar mensajes pensada para trabajadoras de cualquier organización de derechos humanos y/o activistas, específicamente aquellas que se encuentran en áreas de conflicto.
 
 En este cifrado, la letra es sustituida por otra letra del alfabeto que es definida por un número de desplazamiento. 
 
 ![image](https://user-images.githubusercontent.com/113146161/226067322-c8274f69-c6e5-4ff1-9818-96302d11b503.png)
 
-El diseño es neutral, sobrio, con colores fríos y con letra monoespaciada. Se tuvo en cuenta la sencillez para transmitir tranquilidad y confianza a la usuaria y así confusión en el uso.
+El diseño es neutral, sobrio, con colores fríos y letra monoespaciada. Esta sencillez transmite tranquilidad, confianza y claridad en el uso. 
 
 La aplicación contiene dos pantallas:
 
@@ -35,3 +35,25 @@ No incluye cifrado para números y caracteres especiales, aunque sí los permite
 ***
 
 ## About Caesar Cipher
+
+The Caesar Cipher app is a messenger tool to encode and decode messages, aimed to human rights organizations’ employees or activist, specially those who are within conflict areas. 
+
+The letters are replaced for another alphabet letter, which is defined by a displacement number. 
+
+The design is neutral, restrained, cold-toned, and with monospaced typography. This simplicity aims to transmit calmness, trust, and avoid user confusion.
+
+The app has two views:
+
+- Welcome and use instructions.
+- Message encode and decode.
+
+## Objectives
+- To assist the exchange of sensitive information.
+- To protect the users safety. 
+
+## Functionalities:
+
+- Displacement up to 33 positions.
+- Support for upper and lower case.
+
+It does not include encode or decode for numbers and special characters, even though it allows them.
