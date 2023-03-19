@@ -11,6 +11,8 @@ const cipher = {
         result += String.fromCharCode(((letterASCII - 65 + Number(offset))%26)+65);
       } else if (letterASCII >= 97 && letterASCII <= 122) {
         result += String.fromCharCode(((letterASCII - 97 + Number(offset))%26)+97);
+      } else {
+        result += string[i];
       }
     }
     return result;
@@ -30,6 +32,8 @@ const cipher = {
         result += String.fromCharCode(((letterASCII - 65 - Number(offset) + 26)%26)+65);
       } else if (letterASCII >= 97 && letterASCII <= 122) {
         result += String.fromCharCode(((letterASCII - 97 - Number(offset) + 26)%26)+97);
+      } else {
+        result += string[i];
       }
     }
     return result;
