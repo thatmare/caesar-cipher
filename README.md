@@ -1,5 +1,10 @@
 # Caesar Cipher App
 
+* [1. Sobre Caesar Cipher (español)](#sobre-caesar-cipher)
+* [2. About Caesar Cipher (English)](#about-caesar-cipher)
+
+***
+
 ## Sobre Caesar Cipher
 La Caesar Cipher app es una herramienta de mensajería para cifrar y descifrar mensajes pensada para trabajadoras de cualquier organización de derechos humanos y/o activistas, específicamente aquellas que se encuentran en áreas de conflicto.
 
