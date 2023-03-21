@@ -1,7 +1,5 @@
 import cipher from './cipher.js';
 
-console.log(cipher);
-
 const encodeBtn = document.getElementById('codeBtn');
 encodeBtn.addEventListener('click', function(){
   const string = document.getElementById('inputMessage').value;
